@@ -1,0 +1,14 @@
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\bin\Debug\net8.0\csharp-4.exe
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\bin\Debug\net8.0\csharp-4.deps.json
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\bin\Debug\net8.0\csharp-4.runtimeconfig.json
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\bin\Debug\net8.0\csharp-4.dll
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\bin\Debug\net8.0\csharp-4.pdb
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\csharp-4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\csharp-4.AssemblyInfoInputs.cache
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\csharp-4.AssemblyInfo.cs
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\csharp-4.csproj.CoreCompileInputs.cache
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\csharp-4.dll
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\refint\csharp-4.dll
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\csharp-4.pdb
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\csharp-4.genruntimeconfig.cache
+D:\Python-For-Deployment-course\assignments_1\Assignment_C#_2\csharp-4\obj\Debug\net8.0\ref\csharp-4.dll
