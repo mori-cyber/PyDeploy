@@ -1,0 +1,14 @@
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\csharp-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\csharp-2.AssemblyInfoInputs.cache
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\csharp-2.AssemblyInfo.cs
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\csharp-2.csproj.CoreCompileInputs.cache
+C:\Users\taban\Music\csharp-2\bin\Debug\net8.0\csharp-2.exe
+C:\Users\taban\Music\csharp-2\bin\Debug\net8.0\csharp-2.deps.json
+C:\Users\taban\Music\csharp-2\bin\Debug\net8.0\csharp-2.runtimeconfig.json
+C:\Users\taban\Music\csharp-2\bin\Debug\net8.0\csharp-2.dll
+C:\Users\taban\Music\csharp-2\bin\Debug\net8.0\csharp-2.pdb
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\csharp-2.dll
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\refint\csharp-2.dll
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\csharp-2.pdb
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\csharp-2.genruntimeconfig.cache
+C:\Users\taban\Music\csharp-2\obj\Debug\net8.0\ref\csharp-2.dll
