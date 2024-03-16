@@ -29,7 +29,7 @@ I do Bitcoin API
 Here you can see a picture of the work output:
 ![photo_6008220426456645093_w](https://github.com/mori-cyber/PyDeploy/assets/65276280/ec497c4d-6291-4255-8ff6-b509b710ec68)
 
-##API-2-ASSIGNMENT-2
+##API-2-ASSIGNMENT-2:  
 In the second session of the API lesson, we learned how to obtain the information of a sample through the validation key, and for example, through the API of a plant, we were able to access the information of that plant. Also, we got to know how to make an API in a simple way and from scratch, and we were able to print a phrase of Hello World, and we were also able to learn how to print the information of a request. In the following, we were able to access the information of followers and followers through API gates, etc. Stay with us to learn more.
 Part of the outputs:
 ![flower](https://github.com/mori-cyber/PyDeploy/assets/65276280/fa68518f-0fdd-4f1c-9556-935718ea351c)
