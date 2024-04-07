@@ -1,0 +1,6 @@
+db-sqlit3
+fastapi
+-U thread
+opencv-python
+uvicorn[standard]
+tensorflow
