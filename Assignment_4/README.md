@@ -5,6 +5,7 @@
 ### In the next part, a fast API is designed, which first adds an image to the database, then the desired image is read and the gender of the image is determined using the deep model that was the most popular on the gender-recognition-200k-images-celeba dataset. The opinion is evaluated that if the desired image is of a man, the number zero will be returned as a result, and if it is a woman, the number 1 will be returned. To apply the code, the version of TensorFlow must be installed according to the version of Python itself. Also, in order not to encounter the thread error, we must first install the thread, the method of installation of which is mentioned in the requirement.txt file.
 
 ☺️ pip install -r requirement
+☺️ uvicorn sqlmain:app --reload
 
 ☺️ Also at the end of each function: Thread(target=function_name).start() be inserted.
 
