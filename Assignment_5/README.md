@@ -7,7 +7,7 @@
 2- We make a folder (Assignment_5) <br>
 3- In this folder, we create two files, 
 - [x] requirements
-- [x]  Dockrfile
+- [x]  Dockrfile <br>
 4- We create a folder named app inside the previous folder and put the code file and database in it.
 5- We use an attractive image
 6- We make a container from the image
