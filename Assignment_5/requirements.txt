@@ -1,0 +1,6 @@
+python-multipart
+fastapi
+pydantic
+uvicorn[standaed]
+opencv-python-headless
+thread

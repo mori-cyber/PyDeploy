@@ -1,0 +1,10 @@
+{
+    "diskes":[
+        {
+            "name":"html-files",
+            "mountTo":"/app/html_files"
+        }
+    ],
+    "app":"python-app",
+    "port": 8080
+}
