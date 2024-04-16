@@ -15,4 +15,8 @@
 ```
 docker build -t morteza .
 ```
-6- We make a container from the image
+6- We make a container from the image:
+```
+docker run -d -p 80:80 morteza
+```
+
