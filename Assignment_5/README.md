@@ -33,7 +33,11 @@ liara login
 * deploy your code on Liara:
 liara deploy --platform docker --port 80
 ```
-The important point is that Liana must be installed in the path of your code 
+The important point is that Liara must be installed in the path of your code 
 folder and the installation and deployment operations must be done in the cmd environment.
+### After deploy, a link will be generated for you as below, where you can view your output:
+```
+https://mori-docker.liara.run
+```
 
 
