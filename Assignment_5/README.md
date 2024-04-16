@@ -10,6 +10,9 @@
 - [x]  Dockrfile <br>
 4- We create an app folder inside the previous folder and put the Python file and database in it. <be>
 - [X] main.py
-- [X] todo.db
- 5- We use an attractive image
+- [X] todo.db <br>
+ 5- We use an attractive Docker image:
+```
+docker build -t morteza .
+```
 6- We make a container from the image
