@@ -43,7 +43,7 @@ def remove_items(id:int):
     return {"message":"item deleted"}
 Thread(target=remove_items).start()
 
-@app.post("/items/{id}/{title}/{description}/{time}/{status}")
+@app.post("/items")
 def insert_data(id:int, title:str, description:str,time:str,status:int):
     my_cursor.execute("INSERT INTO tasks(id,title,description,time,status) VALUES (?,?,?,?,?)",(id, title, description,time,status))
     connection.commit()
