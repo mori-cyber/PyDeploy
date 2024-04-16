@@ -19,7 +19,7 @@ docker build -t morteza .
 ```
 docker run -d -p 80:80 morteza
 ```
-## Two methods for deploy in Liara:
+## Two methods for deployment in Liara:
 - [x] a- Deployment with a browser.
 - [x] b- Deployment with Liara CLI. <br>
 ## We used the Liara CLI method As follows:
@@ -40,9 +40,7 @@ folder and the installation and deployment operations must be done in the cmd en
 https://mori-docker.liara.run
 ```
 ### My docs output is:
-```
+
 ![screencapture-mori-docker-liara-run-docs-2024-04-16-10_46_19](https://github.com/mori-cyber/PyDeploy/assets/65276280/17101c20-e58d-40f2-b8ff-d301ae54cc2a)
 
-
-```
 
