@@ -7,10 +7,12 @@
 2- We make a folder (for example Assignment_5) <br>
 3- In this folder, we create two files, 
 - [x] requirements.txt
-- [x]  Dockrfile 
-4- We create an app folder inside the previous folder and put the Python file and database in it. <be>
+- [x]  Dockrfile
+       
+4- We create an app folder inside the previous folder and put the Python file and database in it. <br>
 - [X] main.py
-- [X] todo.db 
+- [X] todo.db
+      
  5- We build an attractive Docker image:
 ```
 docker build -t morteza .
