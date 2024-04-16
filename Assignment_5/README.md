@@ -35,14 +35,14 @@ liara deploy --platform docker --port 80
 ```
 The important point is that Liara must be installed in the path of your code 
 folder and the installation and deployment operations must be done in the cmd environment.
-### After deploy, a link will be generated for you as below, where you can view your output:
+### After deployment, a link will be generated for you as below, where you can view your output:
 ```
 https://mori-docker.liara.run
 ```
 ### My docs output is:
 ```
-https://mori-docker.liara.run/docs  <br>
-![screencapture-mori-docker-liara-run-docs-2024-04-16-10_46_19](https://github.com/mori-cyber/PyDeploy/assets/65276280/55d012a9-c0ff-4e19-b511-9406f7a12020)
+![screencapture-mori-docker-liara-run-docs-2024-04-16-10_46_19](https://github.com/mori-cyber/PyDeploy/assets/65276280/17101c20-e58d-40f2-b8ff-d301ae54cc2a)
+
 
 ```
 
