@@ -21,13 +21,13 @@ docker run -d -p 80:80 morteza
 ```
 ## Two methods for deploy in Liara:
 - [x] a- Deployment with a browser.
-- [x] b- Deployment with Liara CLI. <be>
+- [x] b- Deployment with Liara CLI. <br>
 ## We used the Liara CLI method As follows:
-...
+```
 npm install -g @liara/cli
 liara login
 liara deploy --platform docker --port 80
-...
+```
 The important point is that Liana must be installed in the path of your code 
 folder and the installation and deployment operations must be done in the cmd environment.
 
