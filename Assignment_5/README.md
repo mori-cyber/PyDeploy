@@ -24,8 +24,13 @@ docker run -d -p 80:80 morteza
 - [x] b- Deployment with Liara CLI. <br>
 ## We used the Liara CLI method As follows:
 ```
+* install liara in the path of your code:
 npm install -g @liara/cli
+
+* login to your account:
 liara login
+
+* deploy your code on Liara:
 liara deploy --platform docker --port 80
 ```
 The important point is that Liana must be installed in the path of your code 
