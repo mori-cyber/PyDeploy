@@ -4,15 +4,16 @@ Then we used  THAT link to connect to this database.
 ```
 docker build -t my_fastapi .
 ```
-then we run a container:
+- [x] we run a container:
 ```
 docker run -d -p 80:80 fastapi_6
 ```
-then login in liara:
+- [x] then login in liara:
 ```
 liara login
 ```
-then deploy that python api in liara:
+- [x] then deploy that python api in liara:
+
 ```
 liara deploy --platform docker --port 80
 '''
