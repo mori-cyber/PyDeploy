@@ -18,8 +18,8 @@ liara login
 liara deploy --platform docker --port 80
 ```
 output is:
-```
+
 ![screencapture-fastapi-6-liara-run-docs-2024-04-24-00_04_47](https://github.com/mori-cyber/PyDeploy/assets/65276280/a872d341-ec8e-46ed-878c-6ae28eeaa420)
 
-```
+
 
