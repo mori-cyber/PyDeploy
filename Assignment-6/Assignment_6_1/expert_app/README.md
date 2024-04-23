@@ -10,7 +10,7 @@
 - [ ] ID
 - [ ] name
 - [ ]  units
-### We need to Pull the PostgreSQL docker image:
+### We need to Pull the PostgreSQL docker image  the following columns:
 ```
 docker pull postgres
 ```
