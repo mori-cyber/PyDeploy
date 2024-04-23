@@ -1,8 +1,8 @@
-In this task, we first created a postgreSQL database in Liara.<br>
+In this task, we first created a PostgreSQL database in Liara.<br>
 Then we used  that link to connect to this database.
 - [ ]  created an image with docker:
 ```
-docker build -t my_fastapi .
+docker build -t my_fastapi.
 ```
 - [x] we run a container:
 ```
@@ -12,10 +12,13 @@ docker run -d -p 80:80 fastapi_6
 ```
 liara login
 ```
-- [x] then deploy that python api in liara:
+- [x] then deploy that Python API in Liara:
 
 ```
 liara deploy --platform docker --port 80
 ```
-output is
+output is:
+```
+
+```
 
