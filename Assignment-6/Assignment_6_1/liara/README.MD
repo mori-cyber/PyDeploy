@@ -16,5 +16,6 @@ liara login
 
 ```
 liara deploy --platform docker --port 80
-'''
+```
+output is:
 
