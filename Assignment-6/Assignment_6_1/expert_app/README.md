@@ -22,7 +22,7 @@ docker run -p 5432:5432 --name some-postgres -e POSTGRES_PASSWORD=morteza -e POS
 ```
 SQLALCHEMY_DATABASE_URL = "postgresql://mori:morteza@localhost:5432/db"
 ```
-#### my out put for fastapi is:
 
-file:///home/morteza/Downloads/screencapture-127-0-0-1-8000-docs-2024-04-23-11_49_10.png
+#### my output for fastapi is:
 
+![screencapture-127-0-0-1-8000-docs-2024-04-23-11_49_10](https://github.com/mori-cyber/PyDeploy/assets/65276280/bad7ced9-efdd-4ba9-aa37-2bf4bc02a25c)
