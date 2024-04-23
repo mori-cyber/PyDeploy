@@ -1,5 +1,5 @@
-In this task, we first created a POSTGRESQL database in Liara.
-Then we used  THAT link to connect to this database.
+In this task, we first created a postgreSQL database in Liara.<br>
+Then we used  that link to connect to this database.
 - [ ]  created an image with docker:
 ```
 docker build -t my_fastapi .
