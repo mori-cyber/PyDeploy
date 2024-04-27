@@ -40,7 +40,7 @@ To execute this code first install requirements:
 ```
 requirements.txt
 ```
-and then main.py code with:
+and then run main.py code with:
 ```
 !python main.py
 ```
