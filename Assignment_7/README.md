@@ -1,34 +1,35 @@
 In this section, we learned synchronous and asynchronous execution of multiple functions and understood their differences.
 1. Classroom Activities
-    - [ ]  Write sync and async marriage program
-    - [ ]  Write async Download + Printer + AI program
+    - [ ] We write sync and async marriage program
+    - [ ]  We write async Download + Printer + AI program
     
 2. Async API
-    - [ ]  Write a function named `rhyme_finder` for use the following api to get a word and return it’s rhymes
+    - [ ]  We write a function named `rhyme_finder` to use the following API to get a word and return its rhymes
     
     ```python
     url = f"https://rhyming.ir/api/rhyme-finder?api={API_KEY}&w={word}&sb=1&mfe=2&eq=1"
-    response = requests.request("GET", url)
+    response = requests.request("GET", URL)
     ```
     
-    - [ ]  Write two functions named `get_states` and `get_cities` for use the following apis to return list of states of Iran and list of cities of your state respectively
+    - [ ]  We write two functions named `get_states` and `get_cities` for use in the following APIs to return a list of states of Iran and a list of cities of your state respectively
     
     ```python
     url = "https://iran-locations-api.vercel.app/api/v1/fa/states"
-    response = requests.request("GET", url)
+    response = requests.request("GET", URL)
     ```
     
     ```python
     url = f"https://iran-locations-api.vercel.app/api/v1/fa/cities?state_id={state_id}"
-    response = requests.request("GET", url)
+    response = requests.request("GET", URL)
     ```
     
-    - [ ]  Write a function named `get_coordinates`
-        - [ ]  Get list of states from `get_states`
-        - [ ]  Find your state’s id with search by name in the list of states
-        - [ ]  Get list of cities of your state using your state’s id from `get_cities`
+    - [ ]  We write a function named `get_coordinates`
+        - [ ]  Get the list of states from `get_states`
+        - [ ]  Find your state’s ID with a search by name in the list of states
+        - [ ]  Get the list of cities of your state using your state’s ID from `get_cities`
         - [ ]  Find your city with search by name in the list of cities
         - [ ]  Return `latitude` and `longitude` of your city
     
-    - [ ]  Write a function named `main` for call above functions
-    - [ ]  To reduce running time, Use `AsyncIO` when you can
+    - [ ]  We write a function named `main` to call the above functions
+    - [ ]  To reduce running time, we Used `AsyncIO` when you can
+```
