@@ -29,7 +29,11 @@ In this section, we learned synchronous and asynchronous execution of multiple f
         - [ ]  Get the list of cities of your state using your state’s ID from `get_cities`
         - [ ]  Find your city with search by name in the list of cities
         - [ ]  Return `latitude` and `longitude` of your city
-    
+         
+   output is:
+![Screenshot from 2024-04-27 21-04-49](https://github.com/mori-cyber/PyDeploy/assets/65276280/d818099c-acec-485d-886a-3a4a0efed2fd)
+
+        
     - [x]  We write a function named `main` to call the above functions
     - [x]  To reduce running time, we Used `AsyncIO` when you can
 To execute this code first install requirements:
@@ -40,3 +44,4 @@ and then main.py code with:
 ```
 !python main.py
 ```
+
