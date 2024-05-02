@@ -10,3 +10,5 @@
 Out put next to deploy using streamlit (https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app):
 
 https://moridehghani.streamlit.app/
+
+![screencapture-localhost-8501-2024-05-02-23_22_48](https://github.com/mori-cyber/PyDeploy/assets/65276280/8c96be2f-1481-4161-aec4-3a6383cf0429)
