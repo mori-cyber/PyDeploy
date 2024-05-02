@@ -27,6 +27,7 @@ ENTRYPOINT ["streamlit", "run", "main.py", "--server.port=8501", "--server.addre
 
  ```
 - [ ]  Create a requirements.txt file
+      
 ## for deploy in liara run these steps:
 
 - [ ] created an image with docker:
@@ -39,6 +40,8 @@ docker run -d -p 80:80 python
 ```
  - [ ] login in liara:
  ```
+for ubuntu first run this command: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bas
+and this command:  nvm install 20
 liara login
 ```
  - [ ] then deploy that Python API in Liara:
