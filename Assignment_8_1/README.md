@@ -52,3 +52,5 @@ liara deploy
 ```
 https://docs.liara.ir/cli/install/
 ```
+output is :
+https://streamlit-8.liara.run
