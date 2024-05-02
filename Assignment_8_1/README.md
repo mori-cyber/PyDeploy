@@ -43,5 +43,5 @@ liara login
 ```
  - [ ] then deploy that Python API in Liara:
 ```
-liara deploy --platform docker --port 80
+liara deploy 
 ```
