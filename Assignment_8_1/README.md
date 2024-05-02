@@ -45,3 +45,7 @@ liara login
 ```
 liara deploy 
 ```
+####Note: Before any deployment in Liara, you need to register on the Liara website and create a Docker platform.
+```
+https://docs.liara.ir/cli/install/
+```
