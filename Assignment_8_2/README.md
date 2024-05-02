@@ -7,7 +7,7 @@
     - [ ]  Deploy it 🚀 using Streamlit Community Cloud
 
 
-Out put next to deploy using streamlit (https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app):
+- [x] Out put next to deploy using streamlit (https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app):
 
 ```
 https://moridehghani.streamlit.app/
