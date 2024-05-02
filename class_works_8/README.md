@@ -1,1 +1,2 @@
-
+- [ ] We write **BMI calculator app** using streamlit (Show related body type image in output).
+- [ ] We write **Image blur app** using streamlit.
