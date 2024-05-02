@@ -27,4 +27,19 @@ ENTRYPOINT ["streamlit", "run", "main.py", "--server.port=8501", "--server.addre
 
  ```
 - [ ]  Create a requirements.txt file
-- [ ]  
+- [ ]   created an image with docker:
+```
+docker build -t my_fastapi.
+```
+ - [ ] We run a container:
+```
+docker run -d -p 80:80 fastapi_6
+```
+ - [ ] then login in liara:
+ ```
+liara login
+```
+ - [ ] then deploy that Python API in Liara:
+```
+liara deploy --platform docker --port 80
+```
