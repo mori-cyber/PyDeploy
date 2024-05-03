@@ -26,7 +26,6 @@ ENTRYPOINT ["streamlit", "run", "main.py", "--server.port=8501", "--server.addre
  ```
 - [ ]  Create a requirements.txt file
       
-## for deploy in liara run these steps:
 
 - [ ] created an image with docker:
 ```
