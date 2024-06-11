@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width, initial-scale =1.0">
+        <title>Document</title> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" type="text/css" >
+        
+    </head>
+    <body>   
+        <img id="img-0" src="{{url_for('static' , filename = 'images/3.jpg')}}">
+        <div id="img-1" >
+            <img  id="img-1-1" src="{{ url_for('static', filename='images/morteza.jpg') }}" alt="header"> 
+            
+        </div>
+        <h1 style="position: absolute; margin-top: 1600px;
+            margin-left: 500px;color: white;">Hi dear friends i am morteza dehghani. <br> PhD candidate in artificial intelligence <br>
+             and AI programmer</h1>
+        <div>
+            <a  href="https://github.com/mori-cyber"><button  id="git"><img id="img-2"  src="{{url_for('static' , filename = 'icons/1.svg')}}" alt="github"></button></a>
+        </div>
+        <div>
+            <a  href="https://www.linkedin.com/in/morteza-dehghani-612a861b2/"><button  id="linkdin"><img id="img-3"  src="{{url_for('static' , filename = 'icons/2.svg')}}" alt="github"></button></a>
+        </div>
+
+        <div>
+            <a href="https://www.google.com/"><button  id="linkdin"><img id="img-4"  src="{{url_for('static' , filename = 'icons/3.svg')}}" alt="github"></button></a>
+        </div>
+        <div id="cv">
+            <a href="{{ url_for('my_cv') }}"><button id="cv-btn">get my cv please</button></a>
+        </div>
+        <div id="contact" >
+            <a href="/contact"><button id="contact-btn"><img id="img-contact" src="{{url_for('static' , filename = 'icons/4.png')}}" alt="contact"></button></a>
+        </div>
+
+        <div id="research">
+            <a href="/research"><button id="research-btn"><img id="img-research" src="{{url_for('static' , filename = 'icons/5.svg')}}" alt="research"></button></a>
+        </div>
+
+        <div id="courses">
+            <a href="/courses"><button id="courses-btn"><img id="img-courses" src="{{url_for('static' , filename = 'icons/6.png')}}" alt="courses"></button></a>
+        </div>
+    
+    </body>
+    
+</html>

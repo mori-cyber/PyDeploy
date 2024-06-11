@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width, initial-scale =1.0">
+        <title>Document</title> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" type="text/css" >
+        
+    </head>
+    <body>
+        <img id="course-img" src="{{ url_for('static', filename='images/10.jpg') }}" alt="">
+        <div id="course-1">
+            <ul >
+                {% for item in courses %}
+                <li> {{ item }} </li>
+                {% endfor %}
+                
+            </ul>
+        </div>
+        
+    </body>

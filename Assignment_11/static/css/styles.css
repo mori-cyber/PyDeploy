@@ -1,0 +1,239 @@
+
+#img-0 {
+    position:absolute;
+    width: 100%;
+    height:100;
+    
+    /* background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; */
+    /* overflow: hidden; */
+}
+#img-1
+{    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 1142px;
+    margin-left: 527px;
+
+}
+#img-1-1
+{
+    border-radius: 50%;
+    width: 420px;
+    height: 420px;
+
+}
+#git
+{
+    position:absolute;
+    border-style: none;
+    margin-top: 1400px;
+    margin-left: 1500px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color: green;
+}
+
+#img-2
+{
+    position: relative;
+    border-radius: 50px;
+    margin-left: -6px;
+    margin-top: 0px;
+    width: 100px;
+    width: 100px;
+    background-color: white;
+    border-style: none;
+
+}
+
+#img-3
+{
+    position:absolute;
+    border-style: solid;
+    margin-top: 1500px;
+    margin-left: 1500px;
+    border-radius: 50%;
+    border-style: none;
+    width: 100px;
+    height: 100px;
+
+}
+#img-4
+{
+    position:absolute;
+    border-style: solid;
+    margin-top: 1600px;
+    margin-left: 1500px;
+    border-style: none;
+    
+    width: 100px;
+    height: 100px;
+}
+
+#cv 
+{
+    position: absolute;
+    background-color: rgb(20, 155, 20);
+    border-color: green;
+    border-width: 20px;
+    height: 100px;
+    border-radius: 50%;
+    top: 1760px;
+    left: 1520px;
+   
+}
+#cv-btn
+{
+    position: relative;
+    border-radius: 50%;
+    border-style: none;
+    width: 99px;
+    height: 99px;
+    font-size: larger;
+    font-style:unset;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 50px;
+    color:white;
+    background-color: rgb(20, 155, 20);
+}
+
+#contact
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 50%;
+    top: 1268px;
+    left: 1500px;
+    border-color: white;
+}
+#contact-btn
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-style: none;
+    border-radius: 50%;
+    top: 0px;
+    left: -5px;
+    font-size: 20px;
+}
+#img-contact
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#co-1
+{   position: absolute;
+    font-size: 60px;
+    color: white;
+    padding: 50px;
+    top: 20px;
+}
+#co-img
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#research
+{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+}
+#re-img
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+#re-1
+{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    right: 150px;
+    font-size: 30px;
+    text-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#research
+{
+    position: absolute;
+    border-style: none;
+    /* border-color: rgb(231, 93, 93); */
+    margin-top: 1100px;
+    margin-left: 1490px;
+}
+#research-btn
+{
+    position: relative;
+    width: 110px;
+    height: 101px;
+    border-radius: 50%;
+    border-style: none;
+}
+#courses
+{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    margin-top: 980px;
+    margin-left: 1490px;
+    border-style: none;
+    /* border-color: rgb(145, 45, 45); */
+    border-radius: 50%;
+}
+#course-img
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+#img-courses
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#courses-btn
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    border-radius: 50%;
+}
+#course-1
+{
+    position: absolute;
+    /* background-color: rgb(77, 41, 15); */
+    width: 900px;
+    height: 500px;
+    /* border-radius: 10%; */
+   border-style: solid;
+   border-width: 10px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    top: 40px;
+    left: 40px;
+    text-wrap: wrap;
+}

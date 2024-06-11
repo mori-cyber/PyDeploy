@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width, initial-scale =1.0">
+        <title>Document</title> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" type="text/css" >
+        
+    </head>
+    <body>
+        <img id="re-img" src="{{ url_for('static', filename='images/9.jpg') }}" alt="research">
+        <ul id="re-1">
+            {% for item in research %}
+            <li> {{ item }} </li>
+            {% endfor %}
+            
+        </ul>
+    </body>
