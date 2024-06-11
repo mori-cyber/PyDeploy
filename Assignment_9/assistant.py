@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 # import gradio as gr
 
-groq_api_key = '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'
+groq_api_key = ''
 
 
 def fetch_response(user_input):
