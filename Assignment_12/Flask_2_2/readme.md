@@ -9,7 +9,5 @@
     
     - [ ]  Get weight, height, age, and gender from the user
     - [ ]  Calculate BMR and show the result
-   ```
-   ![bmr-formulas](https://github.com/mori-cyber/PyDeploy/assets/65276280/3ce0b072-c4c2-4f00-80f9-397030c6957a)
    
-   ```
+![bmr-formulas](https://github.com/mori-cyber/PyDeploy/assets/65276280/b48301ef-ff09-46bf-a74b-c54df892e644)
