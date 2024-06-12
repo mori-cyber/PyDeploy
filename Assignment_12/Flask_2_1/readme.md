@@ -10,5 +10,5 @@ https://getbootstrap.com/docs/5.3/getting-started/introduction/
 ```
 For install requirements run this:
 ```
-pip -r requirements.txt
+pip install  -r requirements.txt
 ```
