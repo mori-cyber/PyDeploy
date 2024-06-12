@@ -8,3 +8,7 @@ Bootstrap has been used in the design of web pages, whose address is as follows:
 ```
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
 ```
+For install requirements run this:
+```
+pip -r requirements.txt
+```
