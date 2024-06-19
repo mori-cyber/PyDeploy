@@ -1,7 +1,7 @@
-1. My Personal Website
-    - [ ]  Add `layout.html` to template directory for [**Template Inheritance**](https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance)
-    - [ ]  Connect your web app to a SQL database (e.g. postgresql) using [SQLModel](https://sqlmodel.tiangolo.com/) or [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/)
-    - [ ]  Create class User contains following properties:
+![screencapture-127-0-0-1-5000-upload-2024-06-19-23_07_01](https://github.com/mori-cyber/PyDeploy/assets/65276280/78123bbb-8e5f-4fda-b333-c8fb902b3d32)1. My Personal Website
+    - [ ]  Add `layout.html` to the template directory for [**Template Inheritance**](https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance)
+    - [ ]  Connect your web app to a SQL database (e.g. PostgreSQL) using [SQLModel](https://sqlmodel.tiangolo.com/) or [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/)
+    - [ ]  Create class User contains the following properties:
         - [ ]  id (Primary Key)
         - [ ]  first_name
         - [ ]  last_name
@@ -12,13 +12,13 @@
         - [ ]  country
         - [ ]  password
         - [ ]  join_time
-    - [ ]  Create PyDantic classes to validate all properties in register and login steps
+    - [ ]  Create PyDantic classes to validate all properties in the register and login steps
     - [ ]  Add register and login form in templates (Front-end)
-        - [ ]  Add 2 fields for password:
+        - [ ]  Add 2 fields for the password:
             - [ ]  Password
             - [ ]  Confirm password
-    - [ ]  Add register and login functions contains `GET` and `POST` methods in app (Back-end)
-        - [ ]  Compare password and confirm password values to make sure they are equal
+    - [ ]  Add register and login functions containing `GET` and `POST` methods in app (Back-end)
+        - [ ]  Compare passwords and confirm password values to make sure they are equal
         - [ ]  At the registration step, make sure that the username has not been used before
     - [ ]  Hash password using bcrypt
         
@@ -27,13 +27,13 @@
 
 ---
 
-1. AI app
-    - [ ]  Add `layout.html` to template directory for [**Template Inheritance**](https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance)
-    - [ ]  Use YOLOv8 classification model instead of DeepFace as AI model in our story
+2. AI app
+    - [ ]  Add `layout.html` to the template directory for [**Template Inheritance**](https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance)
+    - [ ]  Use the YOLOv8 classification model instead of DeepFace as the AI model in our story
         
         [Classify](https://docs.ultralytics.com/tasks/classify/#predict)
         
-    - [ ]  Create class User contains following properties:
+    - [ ]  Create class User contains the following properties:
         - [ ]  id (Primary Key)
         - [ ]  first_name
         - [ ]  last_name
@@ -44,12 +44,18 @@
         - [ ]  country
         - [ ]  password
         - [ ]  join_time
-    - [ ]  Create PyDantic classes to validate all properties in register and login steps
+    - [ ]  Create PyDantic classes to validate all properties in the register and login steps
     - [ ]  Add register and login form in templates (Front-end)
-        - [ ]  Add 2 fields for password:
+        - [ ]  Add 2 fields for the password:
             - [ ]  Password
             - [ ]  Confirm password
-    - [ ]  Add register and login functions contains `GET` and `POST` methods in app (Back-end)
-        - [ ]  Compare password and confirm password values to make sure they are equal
+    - [ ]  Add register and login functions containing `GET` and `POST` methods in the app (Back-end)
+        - [ ]  Compare passwords and confirm password values to make sure they are equal
         - [ ]  At the registration stage, make sure that the username has not been used before
     - [ ]  Hash password using bcrypt
+   ### output for me is:
+![screencapture-127-0-0-1-5000-upload-2024-06-19-23_07_01](https://github.com/mori-cyber/PyDeploy/assets/65276280/039054b4-c0b1-4426-bc59-8248dcb58355)
+
+
+   
+   
