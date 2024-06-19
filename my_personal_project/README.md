@@ -22,8 +22,9 @@
         - [ ]  At the registration step, make sure that the username has not been used before
     - [ ]  Hash password using bcrypt
         
-        [GitHub - pyca/bcrypt: Modern(-ish) password hashing for your software and your servers](https://github.com/pyca/bcrypt/?tab=readme-ov-file#password-hashing)
         
+        ![output](https://github.com/mori-cyber/PyDeploy/assets/65276280/612c1573-d3ab-49b3-b6b9-8a90dbd8882b)
+
 
 ---
 
