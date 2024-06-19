@@ -23,8 +23,7 @@
     - [ ]  Hash password using bcrypt
         
         
-        ![output](https://github.com/mori-cyber/PyDeploy/assets/65276280/612c1573-d3ab-49b3-b6b9-8a90dbd8882b)
-
+       
 
 ---
 
@@ -55,7 +54,8 @@
         - [ ]  At the registration stage, make sure that the username has not been used before
     - [ ]  Hash password using bcrypt
    ### output for me is:
-![screencapture-127-0-0-1-5000-upload-2024-06-19-23_07_01](https://github.com/mori-cyber/PyDeploy/assets/65276280/039054b4-c0b1-4426-bc59-8248dcb58355)
+ ![output](https://github.com/mori-cyber/PyDeploy/assets/65276280/612c1573-d3ab-49b3-b6b9-8a90dbd8882b)
+
 
 
    
