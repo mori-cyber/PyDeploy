@@ -1,4 +1,4 @@
-![screencapture-127-0-0-1-5000-upload-2024-06-19-23_07_01](https://github.com/mori-cyber/PyDeploy/assets/65276280/78123bbb-8e5f-4fda-b333-c8fb902b3d32)1. My Personal Website
+1. My Personal Website
     - [ ]  Add `layout.html` to the template directory for [**Template Inheritance**](https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance)
     - [ ]  Connect your web app to a SQL database (e.g. PostgreSQL) using [SQLModel](https://sqlmodel.tiangolo.com/) or [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/)
     - [ ]  Create class User contains the following properties:
