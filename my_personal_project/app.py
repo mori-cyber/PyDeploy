@@ -139,7 +139,7 @@ def upload():
                 my_image.save(save_path)
                 file = open(save_path , "r", encoding='UTF-8')
 
-                model_path = "ONNX/yolov8m.onnx"
+                model_path = ""ONNX/yolov8/.env/yolov8m.onnx""
                 yolov8_detector = YOLOv8(model_path, conf_thres=0.2, iou_thres=0.3)
 
                 try:
