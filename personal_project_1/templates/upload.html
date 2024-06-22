@@ -1,0 +1,34 @@
+
+{% extends "layout.html" %}
+
+{% block onvan %}
+      سرویس هوش مصنوعی
+{% endblock %}
+
+
+{% block content %}
+<div>
+<h1>Upload Your Image</h1>
+    <form method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+          <label for="formFile" class="form-label">Default file input example</label>
+          <input name="image"   class="form-control" type="file" id="formFile">
+
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    {% with messages = get_flashed_messages( with_categories=True) %}
+    {% if messages %}
+      {% for category , message in messages %}
+      <div class="alert alert-info" role="alert">
+        {{ message }}
+      </div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+</div>
+{% endblock %}
+
+
+
+   
