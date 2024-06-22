@@ -1,4 +1,4 @@
- My Website
+ My Website:
 - [X] AI app
     - [ ]  Authentication using session 👤
         - [ ]  Signup
