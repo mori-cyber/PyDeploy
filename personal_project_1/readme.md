@@ -1,10 +1,10 @@
-1. My Personal Website
-2. AI app
+ My Website
+- [X] AI app
     - [ ]  Authentication using session 👤
         - [ ]  Signup
         - [ ]  Signin
         - [ ]  Signout
-    - [ ]  Messageing using flash (Use Bootstrap to make a better UI)
+    - [ ]  Messaging using flash (Use Bootstrap to make a better UI)
         - [ ]  Success
         - [ ]  Warning
         - [ ]  Info
@@ -18,5 +18,5 @@
    sudo dockebuild -t objectdetection .
    ```
    ```
-   sudo dockerun -p 5000:5000 objectdetection
+   sudo docker run -p 5000:5000 objectdetection
    ```
