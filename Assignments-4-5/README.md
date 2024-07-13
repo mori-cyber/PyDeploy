@@ -7,6 +7,8 @@ https://ai.google.dev/
 ```
 for deployment in docker follow me:
 ```
-[ X ] sudo dockebuild -t AIservices .
-[ X ] sudo docker run -p 5000:5000 AIservices
+ sudo dockebuild -t AIservices .
+```
+```
+sudo docker run -p 5000:5000 AIservices
 ```
