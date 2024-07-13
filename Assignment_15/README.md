@@ -1,1 +1,34 @@
-
+1. My Personal Website
+2. AI app
+    - [ ]  **Front-end optimization** 🌝
+        - [ ]  Create an amazing index.html to make a good first impression for your users 🤩
+        - [ ]  Use https://fontawesome.com/ icons to make your application more beautiful 😍
+        - [ ]  Use https://getbootstrap.com/ tools
+        - [ ]  Use `url_for` function to link your static files https://flask.palletsprojects.com/en/2.3.x/tutorial/static/
+        - [ ]  Optimize your navbar, forms, messages, cards, buttons and links if needed
+    - [ ]  **Back-end optimization** 🌚
+        - [ ]  Put database codes in `database.py`
+        - [ ]  Use suitable names for your variables, functions and routes
+        - [ ]  Remove useless comments and useless lines of your code
+    - [ ]  **Other optimizations**
+        - [ ]  Refactor `Dockerfile` if needed
+        - [ ]  Refactor `readme,md` if needed
+        - [ ]  Refactor `requirements.txt` if needed
+    - [ ]  **New features** ✨
+        - [ ]  **Mediapipe Pose landmark detection 🧍🏻**
+            - [ ]  Go to https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker
+            - [ ]  Try web code example online demo to ensure your browser and your webcam work correctly
+            - [ ]  Download web code example from [codepen.io](http://codepen.io): Login > Export > Download .zip
+            - [ ]  Extract zip file and rename contents of `dist` folder to
+                - [ ]  `pose-detection.html`
+                - [ ]  `pose-detection.css`
+                - [ ]  `pose-detection.js`
+            - [ ]  Move contents of dist folder to your flask app
+            - [ ]  Refactor path of css and js file in the `pose-detection.html` file base on your static folder
+            - [ ]  Add a new route named `/pose-detection` in `app.py`
+        - [ ]  **Mind Reader 🧠**
+            - [ ]  Create 2 files named `mind-reader.html` and `mind-reader-result.html` in back-end
+            - [ ]  Create 2 routes named `/mind-reader` and `/mind-reader/result` in front-end
+            - [ ]  Get a number from user in `mind-reader.html` and post it to the back-end
+            - [ ]  Pass the number from `/mind-reader` to `/mind-reader/result` using `redirect` function
+            - [ ]  Show the number in `mind-reader-result.html` after click on a button and show a progress bar using JavaScript
