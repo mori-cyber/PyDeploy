@@ -13,3 +13,6 @@ for deployment in docker follow me:
 ```
 sudo docker run -p 5000:5000 AIservices
 ```
+The demo for the first page of my website is:
+
+![8](https://github.com/user-attachments/assets/6e432411-6c3c-4f77-9dea-7d5b8087e971)
