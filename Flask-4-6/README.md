@@ -6,9 +6,10 @@
     - [x]  Read all users from the database and show them in the admin dashboard
     - [x]  Add the `join_time` column to the `users` table in the database
     - [x]  Show the user’s `join_time` in the admin dashboard:
-    - [ ]  
+ 
 - [x]  Docker 🐳
-   in the second section,  I did the following:
+
+   In the second section,  I did the following:
    
     - [X]  Create a Docker network
     
