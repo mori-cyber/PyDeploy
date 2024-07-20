@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block onvan %}
+خانه
+{% endblock %}
+{% block content %}
+<style>
+      body {
+            background-color: pink;
+      }
+</style>
+<div class="card text-bg-dark mt-4">
+      <img src="{{url_for('static' , filename = '/images/2.jpeg')}}" alt="AI" class="card-img">
+      <div class="card-img-overlay" style="direction: rtl;text-align: right;">
+            <h2>قدرت هوش مصنوعی در دستان تو</h2>
+            <p class="card-text">برای جستجو هیجان انگیز در دنیای هوش مصنوعی آماده اید؟</p>
+            <a class="btn btn-light btn-lg" href="/signin" role="button">شروع کن</a>
+
+      </div>
+
+</div>
+
+{% endblock %}

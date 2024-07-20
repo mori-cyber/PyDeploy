@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+{% block onvan %}
+ ثبت نام و ورود
+
+{% endblock %}
+
+{% block content %}
+
+<div class="row justify-content-start">
+  <div class="col-4">
+      <div class="card text-bg-info mb-3">
+          <div class="card-header">Signin</div>
+            <div class="card-body">
+              <form method="post">
+                 <div class="mb-3">
+                    <label class="form-label">Username</label>
+                    <input type="text" class="form-control" name="username">
+                  </div>
+                  <div class="mb-3">
+                     <label  class="form-label">Password</label>
+                     <input type="password" class="form-control" name="password">
+                  </div>
+                  <div class="mb-3">
+                     <label  class="form-label">Confirm Password</label>
+                     <input type="password" class="form-control" name="confirmpassword">
+                  </div>
+                   <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              {% with messages = get_flashed_messages( with_categories=True) %}
+                  {% if messages %}
+                    {% for category , message in messages %}
+                    <div class="alert alert-danger" role="alert">
+                      <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                      {{ message }}
+                    </div>
+                    {% endfor %}
+                  {% endif %}
+                {% endwith %}
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% endblock %}
