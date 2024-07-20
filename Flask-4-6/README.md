@@ -30,13 +30,22 @@
     ```
     
     - [X]  My screenshot of the output is the following images:
-    
+  
+![docker_1](https://github.com/user-attachments/assets/c43f8781-fa05-4d40-a691-73ca07166457)
+
+![docker](https://github.com/user-attachments/assets/cef12b14-6699-4756-a317-12507c498fb3)
+
+![docker_2](https://github.com/user-attachments/assets/f6c556db-b102-47e2-a730-606969d43db1)
+
+![docker_3](https://github.com/user-attachments/assets/2f6374e8-2c99-4019-b011-dae5c3d44cef)
+
+- [X] My admin output is:
+
+![docker_6](https://github.com/user-attachments/assets/4d437880-aee6-4973-b2df-af7508164b63)
+
+
+
+
+
+
    
-
-
- 
-
-
-    
-    
-    ![Untitled-2024-07-07-0947.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f36084e4-06a5-4ee8-8cbd-0ea24d0efa73/abbdf6d4-cd34-4651-8e0c-2355f0288bf2/Untitled-2024-07-07-0947.png)
