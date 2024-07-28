@@ -1,0 +1,132 @@
+{% extends "layout.html" %}
+
+{% block onvan %}
+سرویس هوش مصنوعی
+{% endblock %}
+
+
+{% block content %}
+<style>
+  body {
+    background-color: lightslategray;
+  }
+</style>
+<br>
+<div>
+  <h1 style="text-align: center; color: brown;">AI Services</h1>
+  <form method="post" enctype="multipart/form-data" style="border-style: solid;border-radius: 8px;
+  border-color: palevioletred;width: 450px;background-color: pink;color: black;padding: 20px;">
+    <div class="mb-3" style="text-align: center;">
+      <label for="formFile" class="form-label"><b>Object Dtection using YOLO</b> </label>
+      <input name="image" class="form-control" type="file" id="formFile" style="width: 400px;">
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <!-- {% with messages = get_flashed_messages( with_categories=True) %}
+  {% if messages %}
+  {% for category , message in messages %}
+  <div class="alert alert-info" role="alert">
+    {{ message }} -->
+  <!-- </div> -->
+  <!-- {% endfor %}
+  {% endif %}
+  {% endwith %} -->
+</div>
+<style>
+  #s1 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+</style>
+
+
+<div id="s1">
+  <div class="card text-bg-primary mb-3" style="width: 300px;height: 400px;text-align: center">
+    <div class="card-header" style="text-align: center;">Face_landmark_detection</div>
+    <div class="card-body">
+      <h5 class="card-title" style="padding: 20px;margin-right: 10px;">Landmarks</h5>
+      <img src="static/images/4.png" alt="face-landmark" style="width: 250px;"><br>
+      <p class="card-text"> you can turn on your webcame and detect your face land marks </p>
+      <a href="https://codepen.io/mediapipe-preview/pen/OJBVQJm" class="stretched-link"></a>
+    </div>
+  </div>
+  <div class="card text-bg-primary mb-3" style="width: 300px;height: 400px;text-align: center">
+    <div class="card-header" style="text-align: center;">Face_Detection</div>
+    <div class="card-body">
+      <h5 class="card-title" style="text-align: center;">Detect</h5>
+      <img src="static/images/5.png" alt="face-detection" style="width: 250px;"><br>
+      <p class="card-text">you can turn on your webcame and detect your face
+      </p>
+      <a href="https://codepen.io/mediapipe-preview/pen/OJByWQr" class="stretched-link"></a>
+    </div>
+  </div>
+
+  <div class="card text-bg-primary mb-3" style="width: 300px;height: 400px;text-align: center">
+    <div class="card-header">Object_detection</div>
+    <div class="card-body">
+      <h5 class="card-title">Detection</h5>
+      <img src="static/images/6.png" alt="face-detection" style="width: 250px;"><br>
+      <p class="card-text">you can turn on your webcam and detect objects around you
+      </p>
+      <a href="https://codepen.io/mediapipe-preview/pen/vYrWvNg" class="stretched-link"></a>
+    </div>
+  </div>
+  <div class="card text-bg-primary mb-3" style="width: 300px;height: 400px;text-align: center"">
+    <div class=" card-header">Body_Land_Marks</div>
+  <div class="card-body">
+    <h5 class="card-title">LandMarks</h5>
+    <img src="static/images/7.png" alt="face-detection" style="width: 250px;">
+    <br>
+    <p class="card-text">you can turn on your webcam and detect body landmarks you.
+    </p>
+    <a href="https://codepen.io/mediapipe-preview/pen/abRLMxN" class="stretched-link"> </a>
+  </div>
+</div>
+<div class="col">
+  <form method="post" action="/add-new-comment">
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">نظر شما </label>
+      <textarea id="editor" name="text" class="form-control" id="exampleFormControlTextarea1" rows="3"> 
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+      {% endwith %}
+      </textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<script type="module">
+  import {
+    ClassicEditor,
+    Essentials,
+    Bold,
+    Italic,
+    Font,
+    Paragraph
+  } from 'ckeditor5';
+
+  ClassicEditor
+    .create(document.querySelector('#editor'), {
+      plugins: [Essentials, Bold, Italic, Font, Paragraph],
+      toolbar: {
+        items: [
+          'undo', 'redo', '|', 'bold', 'italic', '|',
+          'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor'
+        ]
+      }
+    })
+    .then( /* ... */)
+    .catch( /* ... */);
+</script>
+
+{% endblock %}
