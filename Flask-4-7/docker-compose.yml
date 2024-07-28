@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: some_postgres
+    environment:
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_USER: mori_cyber
+      POSTGRES_DB: db_postgres
+    networks: 
+      - my_network
+    volumes: 
+      - postgres_data:/var/lib/postgresql/data
+
+  ai_web_app:
+    image: my_web_app
+    container_name: my_web_app
+    networks: 
+      - my_network
+    ports:
+      - "8080:5000"
+    volumes: 
+      - .:/myapp
+    depends_on:
+      - postgres
+
+networks:
+  my_network:
+
+volumes:
+  postgres_data:
