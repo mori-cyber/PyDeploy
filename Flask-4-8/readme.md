@@ -36,8 +36,8 @@
           
             
         - [ ]  Send the JSON data to the QR Code microservice and finally return the resulting image
-        - [ ]  Run the Main microservice on a port (e.g. 8080)
-   ##The overview of this work:
+        - [ ]  Run the Main microservice on a port (8080)
+##The overview of this work:
 
     
     ![microservices](https://github.com/user-attachments/assets/d34a3ff3-0d07-4bf0-829f-2632de80bde7)
