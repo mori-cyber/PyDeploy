@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block title  %}
+Blog
+{% endblock %}
+
+{% block content %}
+
+<div class="row justify-content-center mt-4 ">
+    <div class="col">
+       <h2>{{topic.title }}  </h2>
+       <img src=" {{topic.image}}"></img>
+       <p> 
+        {{topic.body}}
+       </p>
+    </div>
+</div>
+
+{% endblock %}
