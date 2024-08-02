@@ -33,9 +33,7 @@
         - [ ]  Create a file named `main.py` ****in the `microservices` directory
         - [ ]  Create a flask app in `main.py` and define a route named `/`
         - [ ]  The main microservice will call the Hafez microservice and the Kayyam microservice and get the results, then merge them in json format
-            
-            ```
-            ```
+          
             
         - [ ]  Send the JSON data to the QR Code microservice and finally return the resulting image
         - [ ]  Run the Main microservice on a port (e.g. 8080)
