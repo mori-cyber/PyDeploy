@@ -1,1 +1,7 @@
-
+onnx
+onnxruntime
+ultralytics
+onnxruntime-gpu
+skl2onnx 
+onnxscript
+tf2onnx
