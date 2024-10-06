@@ -4,6 +4,7 @@
 1. MongoDB Cloud (Atlas)
    
 I do this work:
+
     - [ ]  SignUp in https://www.mongodb.com/
     - [ ]  Create a project named `PyDeploy`
     - [ ]  Create a cluster in the project with  the cluster1 name`
@@ -11,6 +12,7 @@ I do this work:
     - [ ]  Go to `Security > Network Access` and add your IP address 0.0.0.0
     (You can add `0.0.0.0` to open network access to all, It’s easy but unsecured)
 3. PyMongo
+   
     - [ ]  Install `pymongo` python package https://github.com/mongodb/mongo-python-driver (Star ⭐️ the repo)
     - [ ]  Import `pymongo`
     - [ ]  Create a database with the name of Move.
@@ -23,7 +25,7 @@ I do this work:
        
         
     - [ ]  Select data from the `cast` collection with the length of `name` less than 5 characters.
-4. MongoDB Docker
+5. MongoDB Docker
     - [ ]  Get mongodb docker image from dockerhub https://hub.docker.com/_/mongo
     - [ ]  docker pull mongo
     - [ ]  python.exe -m pip install --upgrade pip    
