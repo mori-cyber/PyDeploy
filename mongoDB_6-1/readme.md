@@ -2,7 +2,8 @@
 
 
 1. MongoDB Cloud (Atlas)
-   I do this work:
+   
+I do this work:
     - [ ]  SignUp in https://www.mongodb.com/
     - [ ]  Create a project named `PyDeploy`
     - [ ]  Create a cluster in the project with  the cluster1 name`
