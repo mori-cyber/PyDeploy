@@ -41,7 +41,10 @@ https://cloud.mongodb.com/
         - [ ]  Write ONNX inference
         - [ ]  Write a `dockerfile` for this microservice 🐳
     4. Just one more thing to do: After all, I Write a `docker-compose.yml` file for this shit :)
-    - [ ]
+    - [ ] To start the services, use:
+   ```
+   docker-compose up --build
+   ```
        
       ![image](https://github.com/user-attachments/assets/bfd4ef7d-150f-48a8-8f9a-c0fd83d6fe19)
 
