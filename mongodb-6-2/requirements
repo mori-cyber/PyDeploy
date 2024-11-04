@@ -1,0 +1,13 @@
+Flask
+mongoengine
+bcrypt
+PyJWT
+pandas
+scikit-learn
+torch
+onnx
+onnxmltools
+skl2onnx
+onnxruntime
+pydantic
+joblib
