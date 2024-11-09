@@ -110,4 +110,4 @@ Redis pipelines allow you to optimize multiple commands by batching them togethe
 **Hint**: Use the `pipeline` and `hmset` commands in Redis to batch the operations.
 
 This problem  help me to understand how to optimize multiple Redis operations using pipelines, making the interaction more efficient, especially when dealing with a large number of commands.
-# thank you mr sajad aemmi❤️❤️❤️
+# thank you Mr Sajad Aemmi❤️❤️❤️
