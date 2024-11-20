@@ -1,4 +1,4 @@
 
-[![My Skills](https://skillicons.dev/icons?i=redis)](https://https://redis.io)
+[![My Skills](https://skillicons.dev/icons?i=redis)](https://redis.io/)
 
-##redis&Celery
+## Redis&Celery
