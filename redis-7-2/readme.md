@@ -4,6 +4,7 @@
  https://docs.celeryq.dev/en/stable/
 ```
 
+
 ## Redis&Celery
 1. Redis insight
     - [ ] I Download https://redis.io/insight/ and install it
@@ -45,6 +46,10 @@
 ![2](https://github.com/user-attachments/assets/8447da8f-3248-4645-a7db-a0708bbe5717)
 
 ![3](https://github.com/user-attachments/assets/fc56f455-401c-408c-94eb-63d9e7e874d0)
+
+## Overview of this plan
+
+![03-celery excalidraw](https://github.com/user-attachments/assets/4dea865a-0bc1-439b-928b-5bfe1700e5da)
 
           
    
