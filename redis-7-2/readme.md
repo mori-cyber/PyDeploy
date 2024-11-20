@@ -5,3 +5,48 @@
 ```
 
 ## Redis&Celery
+1. Redis insight
+    - [ ] I Download https://redis.io/insight/ and install it
+
+
+![redis-insight](https://github.com/user-attachments/assets/46c23b3a-a4b2-4082-97de-97a24bdef400)
+
+
+![03-celery.excalidraw.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f36084e4-06a5-4ee8-8cbd-0ea24d0efa73/dab65f99-ceae-45ce-af17-88a1e8baf234/03-celery.excalidraw.png)
+
+
+2. **Getting Started**
+    - [ ]  I Create a virtual environment 
+        
+        ```bash
+        virtualenv -p python3.12 myvenv
+        . venv/bin/activate
+        ```
+        
+    - [ ]  I Install radis , celery and fastapi with this command:
+        ```bash
+        pip install "redis" "celery" "fastapi[standard]"
+        salt and pepper به مقدار لازم
+        ```
+        
+    - [ ]  Create celery app object 
+        
+        ```python
+        redis_url = "redis://localhost:6379"
+        app = Celery(__name__, broker=redis_url, backend=redis_url)
+        ```
+        
+    - [ ]  Launch a worker 
+        ```bash
+        celery --app main --concurrency=1 --loglevel=DEBUG
+        ```
+        
+3. **Using Celery with FastAPI**
+    - [ ]  With those building blocks, we can now bind the two together. We simply import `main.py` in FastAPI, and call our task.delay() from a REST call. We can return the task ID and its status to the user:
+
+![2](https://github.com/user-attachments/assets/8447da8f-3248-4645-a7db-a0708bbe5717)
+
+![3](https://github.com/user-attachments/assets/fc56f455-401c-408c-94eb-63d9e7e874d0)
+
+          
+   
