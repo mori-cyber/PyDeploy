@@ -1,2 +1,4 @@
+
+[![My Skills](https://skillicons.dev/icons?i=redis)](https://https://redis.io)
+
 ##redis&Celery
-[![My Skills](https://skillicons.dev/icons?i=redis)](https://https://docs.celeryq.dev/en/stable)
