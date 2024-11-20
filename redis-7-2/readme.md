@@ -34,7 +34,7 @@
         redis_url = "redis://localhost:6379"
         app = Celery(__name__, broker=redis_url, backend=redis_url)
         ```
-   - [ ] pull Redis and run it on a docker container
+   - [ ] pull Redis and run it on a docker container in ubuntu os
      ```bash
      sudo docker pull redis
      sudo docker run --name min_redis -d -p 6379:6379 redis
