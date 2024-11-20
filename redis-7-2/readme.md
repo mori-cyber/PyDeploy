@@ -25,7 +25,7 @@
     - [ ]  I Install radis, celery and fastapi with this command:
         ```bash
         pip install "redis" "celery" "fastapi[standard]"
-        salt and pepper به مقدار لازم
+        
         ```
         
     - [ ]  Create a celery app object 
