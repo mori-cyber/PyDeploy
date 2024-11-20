@@ -12,8 +12,6 @@
 ![redis-insight](https://github.com/user-attachments/assets/46c23b3a-a4b2-4082-97de-97a24bdef400)
 
 
-![03-celery.excalidraw.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f36084e4-06a5-4ee8-8cbd-0ea24d0efa73/dab65f99-ceae-45ce-af17-88a1e8baf234/03-celery.excalidraw.png)
-
 
 2. **Getting Started**
     - [ ]  I Create a virtual environment 
