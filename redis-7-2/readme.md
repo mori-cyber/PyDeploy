@@ -18,7 +18,7 @@
     - [ ]  I Create a virtual environment 
         
         ```bash
-        virtualenv -p python3.12 myvenv
+        virtualenv -p python3.10.12 myvenv
         . venv/bin/activate
         ```
         
