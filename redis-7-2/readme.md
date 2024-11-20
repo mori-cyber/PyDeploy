@@ -22,23 +22,31 @@
         . venv/bin/activate
         ```
         
-    - [ ]  I Install radis , celery and fastapi with this command:
+    - [ ]  I Install radis, celery and fastapi with this command:
         ```bash
         pip install "redis" "celery" "fastapi[standard]"
         salt and pepper به مقدار لازم
         ```
         
-    - [ ]  Create celery app object 
+    - [ ]  Create a celery app object 
         
         ```python
         redis_url = "redis://localhost:6379"
         app = Celery(__name__, broker=redis_url, backend=redis_url)
         ```
-        
+   - [ ] pull Redis and run it on a docker container
+     ```bash
+     sudo docker pull redis
+     sudo docker run --name min_redis -d -p 6379:6379 redis
+     ```        
     - [ ]  Launch a worker 
         ```bash
         celery --app main --concurrency=1 --loglevel=DEBUG
         ```
+     - [ ] Launch a fastapi
+       ```bash
+       uvicorn api:app --reload
+       ```
         
 3. **Using Celery with FastAPI**
     - [ ]  With those building blocks, we can now bind the two together. We simply import `main.py` in FastAPI, and call our task.delay() from a REST call. We can return the task ID and its status to the user:
