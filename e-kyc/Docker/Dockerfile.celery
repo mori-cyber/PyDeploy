@@ -1,0 +1,8 @@
+FROM python
+
+WORKDIR /app
+
+COPY ./Backend /app
+RUN pip install celery redis
+
+CMD ["celery", "-A", "Backend.tasks", "worker", "--loglevel=info"]
