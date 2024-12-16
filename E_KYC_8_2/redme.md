@@ -49,7 +49,8 @@ fastapi dev app.py
 ## output for postman:
 
 
-![gesture_2](https://github.com/user-attachments/assets/95e6854c-83b2-48b8-b081-42f144e463f5)
+
 ![gesture_1](https://github.com/user-attachments/assets/42716515-a3d9-450b-8005-c8de8e09e6eb)
+![gesture_2](https://github.com/user-attachments/assets/95e6854c-83b2-48b8-b081-42f144e463f5)
 ![gesture](https://github.com/user-attachments/assets/23b28709-1fd6-4280-a23c-d61adbca2de8)
 
