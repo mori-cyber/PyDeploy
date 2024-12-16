@@ -1,0 +1,3 @@
+mediapipe
+fastapi[standard]
+celery
