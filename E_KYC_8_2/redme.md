@@ -1,3 +1,6 @@
+[![My Skills](https://skillicons.dev/icons?i=redis)](https://redis.io)
+[![My Skills](https://skillicons.dev/icons?i=celery)](https://docs.celeryq.dev/en/stable/)
+[![My Skills](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com/)
 1. Redis
     - [ ]  Pull Redis docker image
     - [ ]  Run redis docker container
