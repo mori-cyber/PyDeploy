@@ -1,6 +1,6 @@
 [![My Skills](https://skillicons.dev/icons?i=django)](https://django.io)
 
-1. ** I Write my first Django app**
+ **I Write my first Django app**
     - [ ]  Install Django
    ```
    pip install Django
